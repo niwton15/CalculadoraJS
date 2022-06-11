@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(131, 103, 255),rgb(223, 96, 255));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculadora{
+    background-color: #564058;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    margin: 3px;
+    
+
+
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    background-color: #7F6980;
+    color: white;
+}
+.botaoamarelo{
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    background-color: #f49e3f;
+    color: white;
+}
+.botaocinza{
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    background-color: #664F68;
+    color: white;
+}
+.botaoinferioresquerdo{
+    background-color: #7F6980;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    border-bottom-left-radius: 30px;
+    color: white;
+}
+.botaoinferiordireito{
+    background-color: #f49e3f;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    border-bottom-right-radius: 30px;
+    color: white;
+}
+#resultado{
+    height: 70px;
+    font-size: 40px;
+    text-align: right;
+    line-height: 100px;
+    
+}
+
+.botao:hover{
+    background-color: #634e64;
+}
+.botaoamarelo:hover{
+    background-color: #c27b2f;
+}
+.botaoinferiordireito:hover{
+    
+    background-color: #c27b2f;
+}
+.botaoinferioresquerdo:hover{
+    background-color: #634e64;
+}
+.botaocinza:hover{
+    background-color: #483949;
+}
